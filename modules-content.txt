@@ -1,0 +1,4 @@
+Content of modules dir:
+ - modulesDescription.js
+ - OSinfo.js
+ - timeFormat.js
