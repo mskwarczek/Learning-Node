@@ -1,4 +1,5 @@
 var OSinfo = require('./modules/OSinfo.js');
+var modulesDescription = require('./modules/modulesDescription.js');
 
 process.stdin.setEncoding('utf-8');
 
@@ -18,6 +19,9 @@ process.stdin.on('readable', function() {
                 break;
             case '/getOSinfo':
                 OSinfo.print();
+                break;
+            case '/writeModules':
+                modulesDescription.write();
                 break;
             case '/exit':
                 console.log('Quitting app!');
