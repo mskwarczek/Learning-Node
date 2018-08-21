@@ -1,0 +1,10 @@
+body {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: left;
+}
+
+label,
+input {
+    margin: 10px 5px;
+}

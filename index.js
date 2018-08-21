@@ -1,3 +1,3 @@
-var server = require('./modules/server');
+const server = require('./modules/server');
 
 server.start();
